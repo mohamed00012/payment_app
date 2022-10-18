@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "payment_application", "payment_application\payment_application.vcxproj", "{4666D00F-D6B2-4147-9D46-3FEBFCBD1A71}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "app", "app", "{1255724E-1726-4359-B7C7-838550CE630D}"
+	ProjectSection(SolutionItems) = preProject
+		payment_application\app.c = payment_application\app.c
+		payment_application\app.h = payment_application\app.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "card", "card", "{7E951336-7FF1-4D66-8E79-C6C598A85637}"
+	ProjectSection(SolutionItems) = preProject
+		payment_application\card.c = payment_application\card.c
+		payment_application\card.h = payment_application\card.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "terminal", "terminal", "{0459BBC7-0606-4FBB-8D57-681B3011428F}"
+	ProjectSection(SolutionItems) = preProject
+		payment_application\terminal.c = payment_application\terminal.c
+		payment_application\terminal.h = payment_application\terminal.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "server", "server", "{6F277A5A-984F-464B-BDAC-E3A02CF64848}"
+	ProjectSection(SolutionItems) = preProject
+		payment_application\server.c = payment_application\server.c
+		payment_application\server.h = payment_application\server.h
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4666D00F-D6B2-4147-9D46-3FEBFCBD1A71}.Debug|x64.ActiveCfg = Debug|x64
+		{4666D00F-D6B2-4147-9D46-3FEBFCBD1A71}.Debug|x64.Build.0 = Debug|x64
+		{4666D00F-D6B2-4147-9D46-3FEBFCBD1A71}.Debug|x86.ActiveCfg = Debug|Win32
+		{4666D00F-D6B2-4147-9D46-3FEBFCBD1A71}.Debug|x86.Build.0 = Debug|Win32
+		{4666D00F-D6B2-4147-9D46-3FEBFCBD1A71}.Release|x64.ActiveCfg = Release|x64
+		{4666D00F-D6B2-4147-9D46-3FEBFCBD1A71}.Release|x64.Build.0 = Release|x64
+		{4666D00F-D6B2-4147-9D46-3FEBFCBD1A71}.Release|x86.ActiveCfg = Release|Win32
+		{4666D00F-D6B2-4147-9D46-3FEBFCBD1A71}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FEBCE593-8FAF-4153-A31E-21D779C75209}
+	EndGlobalSection
+EndGlobal
