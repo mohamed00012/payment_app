@@ -47,6 +47,9 @@ EN_cardError_t getCardExpiryDate(ST_cardData_t* cardData)
 	uint8_t length =strlen(date);
 	if((length != 0 || length<5 || length >5) && (isdigit(date[0]) && isdigit(date[1]) && date[2] =='/' && (isdigit(date[3])) &&(isdigit(date[4]))))
 		{
+			
+			strcpy(cardData->cardExpirationDate,date);
+
 			return CARD_OK;
 
 		}else
@@ -57,7 +60,6 @@ EN_cardError_t getCardExpiryDate(ST_cardData_t* cardData)
 	 
 
 	
-strcpy(cardData->cardExpirationDate,date);
 	
 }
 
