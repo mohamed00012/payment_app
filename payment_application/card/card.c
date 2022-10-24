@@ -22,7 +22,9 @@ EN_cardError_t getCardHolderName(ST_cardData_t* cardData)
 		{
 			{
 				if(((name[i]>= 'a' && name[i]<='z') || (name[i]>='A' && name[i]<='Z')))
-					{return CARD_OK;}								
+					{
+					strcpy(cardData->cardHolderName,name);
+					return CARD_OK;}								
 
 			}
 
@@ -30,7 +32,7 @@ EN_cardError_t getCardHolderName(ST_cardData_t* cardData)
 
 		}
 		}
-		strcpy(cardData->cardHolderName,name);
+		
 	
    	}	
 
