@@ -81,9 +81,10 @@ if(count <16 || count >19)
 {
 	return WRONG_PAN;
 }else
+	strcpy(cardData->primaryAccountNumber,pan);
 	return CARD_OK;
 		
-	strcpy(cardData->primaryAccountNumber,pan);
+	
 }
 
 
