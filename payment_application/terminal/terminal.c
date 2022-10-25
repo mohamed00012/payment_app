@@ -22,7 +22,7 @@ EN_terminalError_t getTransactionDate(ST_terminalData_t* termData)
         }else 
         {
 
-          time_t t = time(NULL);
+          /*time_t t = time(NULL);
                 struct tm tm = *localtime(&t);
                 uint16_t day,month,year;
                 year=tm.tm_year + 1900;
@@ -39,7 +39,8 @@ EN_terminalError_t getTransactionDate(ST_terminalData_t* termData)
                   termData->transactionDate[8]=(year%1000)/10 +   '0';
                   termData->transactionDate[9]=year%10  + '0';
                   termData->transactionDate[10]='\0';
-                  printf("%s\n",termData->transactionDate);
+                  printf("%s\n",termData->transactionDate);*/
+                  printf("%s\n",date);
                   return TERMINAL_OK;
   }
 
